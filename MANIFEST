@@ -1,0 +1,14 @@
+Changes
+lib/Palm/ListDB/Writer.pm
+script/csv2lsdb
+Makefile.PL
+MANIFEST
+README
+t/1.t
+t/1.ref
+t/2.t
+t/2.dat
+t/dbcmp.pl
+META.yml
+Palm-ListDB-Writer.spec.in
+perl-Palm-ListDB-Writer.spec
