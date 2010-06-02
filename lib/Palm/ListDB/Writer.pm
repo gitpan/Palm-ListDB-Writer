@@ -1,12 +1,12 @@
 package Palm::ListDB::Writer;
 
 # ListDB.pm -- Create databases for Palm List application.
-# RCS Info        : $Id: Writer.pm,v 1.10 2003/09/13 09:50:19 jv Exp $
+# RCS Info        : $Id: Writer.pm,v 1.11 2010/06/02 06:13:59 jv Exp $
 # Author          : Johan Vromans
 # Created On      : Sun Aug 31 20:18:31 2003
 # Last Modified By: Johan Vromans
-# Last Modified On: Sat Sep 13 11:38:26 2003
-# Update Count    : 79
+# Last Modified On: Wed Jun  2 08:13:39 2010
+# Update Count    : 83
 # Status          : Unknown, Use with caution!
 
 =head1 NAME
@@ -60,7 +60,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = sprintf('%d.%02d', '$Revision: 1.10 $ ' =~ /(\d+)\.(\d+)/);
+our $VERSION = sprintf('%d.%02d', '$Revision: 1.11 $ ' =~ /(\d+)\.(\d+)/);
 
 my @_atts = qw(cat truncate readonly private backup
 	       autocat label1 label2);

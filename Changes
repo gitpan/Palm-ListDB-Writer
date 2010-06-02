@@ -1,7 +1,11 @@
 Revision history for Perl extension Palm::ListDB.
 
-0.01  Sun Aug 31 20:49:19 2003
-	- Internal release.
+1.11  Wed Jun  2 08:15:00 CEST 2010
+        - Changes t2 so it may succeed on Windows.
 
 1.xx  Sat Sep 13 11:35:41 CEST 2003
 	- Changed name to Palm::ListDB::Writer and released to CPAN.
+
+0.01  Sun Aug 31 20:49:19 2003
+	- Internal release.
+
