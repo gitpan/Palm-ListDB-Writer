@@ -19,8 +19,11 @@ my @scripts = qw(csv2lsdb);
 my $x =
 WriteMakefile(
     'NAME'		=> 'Palm-ListDB-Writer',
-    'VERSION_FROM'	=> 'lib/Palm/ListDB/Writer.pm', 
-    'PREREQ_PM'		=> {}, # e.g., Module::Name => 1.1
+#    'VERSION_FROM'	=> 'lib/Palm/ListDB/Writer.pm',
+    'VERSION'	=> '1.11.01',
+    'PREREQ_PM'		=> {
+			     'Getopt::Long' => 2.33,
+			   },
      EXE_FILES		=> [ map { "script/$_" } @scripts ],
     ($] >= 5.005 ?
       (ABSTRACT_FROM => 'lib/Palm/ListDB/Writer.pm',

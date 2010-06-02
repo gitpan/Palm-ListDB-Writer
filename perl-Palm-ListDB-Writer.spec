@@ -1,7 +1,7 @@
 # $Id: Palm-ListDB.spec.in,v 1.1 2003/09/11 20:13:47 jv Exp $
 
 %define modname Palm-ListDB-Writer
-%define modversion 1.11
+%define modversion 1.11.01
 %define modpath authors/id/J/JV/JV/%{modname}-%{modversion}.tar.gz
 %define modreq perl
 

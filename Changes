@@ -1,5 +1,8 @@
 Revision history for Perl extension Palm::ListDB.
 
+1.11.01  Wed Jun  2 15:31:00 CEST 2010
+        - Added requirement for G::L 2.33.
+
 1.11  Wed Jun  2 08:15:00 CEST 2010
         - Changes t2 so it may succeed on Windows.
 
